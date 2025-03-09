@@ -27,7 +27,7 @@ export default function App() {
         className={`text-4xl font-bold ${count > 7 ? 'active' : ''}`}
         // react는 문자 타입으로 넣어줄 수 없음, 객체 형식으로 넣어줘야 함
         style={{
-          backgroundColor: 'blue'
+          backgroundColor: 'white'
           // 원래 이름인 background-color를 카멜케이스인 backgroundColor로 작성하면 react가 알아서 css로 변경해서 적용해줌
         }}
         // 파란색{}: 화살표 함수(함수임)
